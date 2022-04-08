@@ -21,6 +21,7 @@
 body {
   font-family: 'Roboto', 'Tahoma', sans-serif;
   color: var(--top-text-color);
+  background-color: #ffffff;
 }
 .link {
   text-decoration: none;
@@ -115,4 +116,61 @@ color: var(--top-btn-color);
 .hero-btn:hover{
    color: var(--top-btn-color);
    background-color:var(--hover-color) ; 
+}
+
+/*-------------FEATURE---------------*/
+
+.feature-bottom-title{
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+color: var(--second-title-color);
+}
+.feature-text{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--top-text-color);
+}
+
+/*-----------------work----------------*/
+
+.work-title{
+font-family: 'Roboto';
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03e;
+color: var(--bottom-title-color);
+}
+
+/*---------------team--------------------*/
+
+.team{
+    background-color: #F5F4FA;;
+}
+.team-top-title{
+font-family: 'Roboto';
+font-size: 36px;
+line-height:1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--bottom-title-color);
+}
+.team-bottom-title{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-title-color);
+}
+.team-text{
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--bottom-text-color);
 }

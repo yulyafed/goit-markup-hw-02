@@ -172,3 +172,37 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--bottom-text-color);
 }
+
+/*-------------footer----------*/
+
+.footer{
+    background-color: #2F303A;
+}
+.logo-second{
+font-family: 'Raleway';
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em; 
+color:var(--logo-bottom-color);
+}
+.footer-item{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--address-color);
+}
+.footer-link{
+font-size: 14px;
+line-height:1.71;
+letter-spacing: 0.03em;
+color: var(--contacts-color);
+}
+.footer-list{
+    font-style: normal;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color:var(--hover-color);
+}

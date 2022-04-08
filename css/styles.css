@@ -2,6 +2,7 @@
   --logo-top-color: #000000;
   --logo-bottom-color:#FFFFFF;
   --accent-color: #2196F3; 
+  --current-color:#2196F3; 
   --header-color:  #212121;;
   --top-title-color:  #FFFFFF;
   --top-btn-color: #FFFFFF;
@@ -15,6 +16,7 @@
   --third-title-color:#212121;
   --second-text-color:#757575;
   --hover-color:#2196F3;
+  --hero-color:#2F303A;
    }
 body {
   font-family: 'Roboto', 'Tahoma', sans-serif;
@@ -39,14 +41,13 @@ body {
   margin: -1px;
 }
 
-_______________header________________
+/*-----------HEADER-----------*/
 
 header {
   background-color: white;
 }
 .logo {
 font-family: 'Raleway';
-font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -54,7 +55,6 @@ color: var(--logo-top-color)
 }
 .accent{
 font-family: 'Raleway';
-font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -71,6 +71,10 @@ color: var(--header-color);
 .header-link:focus {
   color:var(--hover-color);
 }
+.current{
+    color: var(--current-color)
+}
+
 .header-link-contacts{
 font-weight: 500;
 font-size: 14px;
@@ -81,4 +85,34 @@ color: var(--header-color);
 .header-link-contacts:hover,
 .header-link-contacts:focus {
   color:var(--hover-color);
+}
+
+/*-----------HERO-----------*/
+
+ .hero{
+background-color: var(--hero-color);
+}
+
+.hero-title{
+font-family: 'Roboto';
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--top-title-color);
+}
+.hero-btn { 
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--top-btn-color);
+}
+
+.hero-btn:hover{
+   color: var(--top-btn-color);
+   background-color:var(--hover-color) ; 
 }

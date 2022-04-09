@@ -24,6 +24,8 @@
  }
 body {
   font-family: 'Roboto', 'Tahoma', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--top-text-color);
   background-color:var(--body-color);
 }

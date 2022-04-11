@@ -18,14 +18,14 @@
   --bottom-text-color: #757575;/* колір тексту 2 студія*/
   --second-text-color:#757575;/* колір тексту портфоліо*/
   --team-color:#FFFFFF;/* колір фону команда*/
+  --team-fon-color:#F5F4FA;/* колір фону секціі команда*/
   --footer-color:#2F303A;/* колір фону футер*/
   --address-color:#FFFFFF;/* колір адреси*/
   --contacts-color: rgba(255, 255, 255, 0.6);/* колір пошти тел*/
  }
 body {
-  font-family: 'Roboto', 'Tahoma', sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-size: 14px;
-  letter-spacing: 0.03em;
   color: var(--top-text-color);
   background-color:var(--body-color);
 }
@@ -57,7 +57,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: var(--logo-top-color)
+color: var(--logo-top-color);
 }
 .accent{
 font-family: 'Raleway','Tahoma', sans-serif;
@@ -107,6 +107,7 @@ font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
+text-transform: uppercase;
 color: var(--top-title-color);
 }
 .hero-btn { 
@@ -156,9 +157,11 @@ color: var(--bottom-title-color);
 /*---------------team--------------------*/
 
 .team{
-    background-color:var(--team-color);
+  background-color:var(--team-fon-color);
 }
-
+.team-item{
+  background-color: var(--team-color);
+}
 .team-bottom-title{
 font-family: 'Roboto';
 font-weight: 500;
@@ -167,7 +170,6 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--second-title-color);
-background-color: var(--team-color);
 }
 .team-text{
 font-size: 16px;
@@ -175,7 +177,6 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--bottom-text-color);
-
 }
 
 /*-------------footer----------*/
@@ -224,7 +225,8 @@ letter-spacing: 0.03em;
 color:var(--second-btn-color);
 cursor: pointer;
 }
-.portfolio-btn:hover{
+.portfolio-btn:hover,
+.portfolio-btn:focus{
   color:var(--top-btn-color) ;
   background-color: var(--hover-color);
 }

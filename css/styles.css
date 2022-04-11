@@ -117,10 +117,12 @@ font-size: 16px;
 line-height: 1.88;
 text-align: center;
 letter-spacing: 0.06em;
-color: var(--top-btn-color);
+color: var(--hover-btn-color);
+background-color:var(--top-btn-color) ;
 }
 
-.hero-btn:hover{
+.hero-btn:hover,
+.hero-btn:focus{
    color: var(--top-btn-color);
    background-color:var(--hover-btn-color) ; 
 }

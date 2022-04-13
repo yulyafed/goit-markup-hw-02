@@ -117,14 +117,13 @@ font-size: 16px;
 line-height: 1.88;
 text-align: center;
 letter-spacing: 0.06em;
-color: var(--hover-btn-color);
-background-color:var(--top-btn-color) ;
+color: var(--top-btn-color);
+background-color:var(--accent-color) ;
 }
 
 .hero-btn:hover,
 .hero-btn:focus{
-   color: var(--top-btn-color);
-   background-color:var(--hover-btn-color) ; 
+      background-color:var(--hover-btn-color) ; 
 }
 
 /*-------------FEATURE---------------*/
@@ -227,6 +226,11 @@ letter-spacing: 0.03em;
 color:var(--second-btn-color);
 background-color: F5F4FA;
 cursor: pointer;
+}
+.current-btn{
+  color: var(--top-btn-color);
+  background-color: var(--current-color);
+
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus{
